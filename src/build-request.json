@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Deploy application to Internet Computer mainnet",
+  "projectName": "Devanshu Portfolio",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Deploy the complete application (frontend and backend) to the Internet Computer mainnet and provide the live URL",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "Yes do it"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Application is successfully deployed to Internet Computer mainnet",
+        "A public URL is generated and accessible",
+        "All functionality works on the deployed version including note uploads, photo capture, and About Me profile management",
+        "Internet Identity authentication works on the live deployment"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must deploy to Internet Computer mainnet, not testnet",
+    "Preserve all existing functionality during deployment"
+  ],
+  "nonGoals": [
+    "Making code changes or feature modifications",
+    "Changing the visual design or styling",
+    "Adding new features"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

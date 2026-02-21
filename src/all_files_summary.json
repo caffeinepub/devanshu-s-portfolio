@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Main backend actor implementing a note-sharing portfolio with blob storage for photos, supporting CRUD operations for notes filtered by subject (Maths, Hindi, English, Science) and user profile management with AboutMe data.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features listed.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files including React components, hooks, pages, and configuration for a portfolio application with notes upload/viewing and profile management.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark themes, defining design tokens for backgrounds, borders, charts, and sidebar components.",
+  "frontend/index.html": "HTML entry point with viewport meta tags and title \"Devanshu Portfolio\", loading the React app from main.tsx.",
+  "frontend/src/App.tsx": "Root React component configuring TanStack Router with routes for home, notes, and about pages, wrapped in ThemeProvider and including Toaster for notifications.",
+  "frontend/src/components/AboutMeForm.tsx": "Form component for viewing and editing user profile information (name, course, year) with loading states, validation, and toast notifications using React Query mutations.",
+  "frontend/src/components/Layout.tsx": "Main layout component with header navigation, hero background image, portfolio branding, and footer with Caffeine.ai attribution link.",
+  "frontend/src/components/NotesList.tsx": "Displays a tabbed list of notes filtered by subject (Maths, Hindi, English, Science) with loading/error states, clickable note cards showing images, and a dialog for viewing selected notes in detail.",
+  "frontend/src/components/NoteUpload.tsx": "Note upload form with camera capture functionality, file selection, subject dropdown, photo preview, and upload progress tracking using ExternalBlob with progress callbacks.",
+  "frontend/src/hooks/useActor.ts": "Creates and manages an authenticated or anonymous backend actor using React Query, automatically invalidating dependent queries when the actor changes based on Internet Identity authentication state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides Internet Identity authentication context and hooks for login/logout functionality, managing identity state and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching notes (all or by subject), uploading notes, and managing user 'About Me' profile data with automatic cache invalidation.",
+  "frontend/src/index.css": "Defines Tailwind CSS configuration with custom CSS variables for a warm academic color palette supporting light and dark modes, plus base typography styles.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the root App component.",
+  "frontend/src/pages/AboutPage.tsx": "Renders the About Me page with a header and the AboutMeForm component for users to share personal and educational details.",
+  "frontend/src/pages/HomePage.tsx": "Landing page displaying a welcome section, feature cards linking to Notes and About pages, and an overview grid of the four supported subjects.",
+  "frontend/src/pages/NotesPage.tsx": "Notes management page with tabs for viewing all notes (NotesList) and uploading new notes (NoteUpload), with refresh handling on successful uploads.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file that defines custom theme extensions including colors using OKLCH color space, typography, container queries, animations, and custom font families.",
+  "project_state.json": "Project state metadata file tracking the Devanshu Portfolio project with one pending feature request (AR-1) to deploy the application to Internet Computer mainnet."
+}

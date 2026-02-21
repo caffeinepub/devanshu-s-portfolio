@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for home, notes, and about pages, wrapped with ThemeProvider and Toaster for notifications.",
+  "frontend/src/components/Layout.tsx": "Layout component with header navigation, hero background image, portfolio icon branding, and footer with attribution link to caffeine.ai.",
+  "frontend/src/pages/HomePage.tsx": "Homepage displaying welcome message \"Welcome to Devanshu Portfolio\" with feature cards for Notes and About sections, plus subject overview grid.",
+  "frontend/src/pages/NotesPage.tsx": "Notes page with tabbed interface for viewing all notes and uploading new notes, managing refresh state after uploads.",
+  "frontend/src/pages/AboutPage.tsx": "About Me page displaying the AboutMeForm component with header and description.",
+  "frontend/src/components/NoteUpload.tsx": "Form component for uploading handwritten note photos with camera capture and file selection, includes subject dropdown, camera preview with proper dimensions, photo preview, and upload progress tracking using ExternalBlob.",
+  "frontend/src/components/NotesList.tsx": "Component displaying note photos in a responsive grid organized by subject with tabbed filtering, clickable cards that open full-size image modal dialogs, using ExternalBlob.getDirectURL() for efficient image streaming.",
+  "frontend/src/components/AboutMeForm.tsx": "Form component for viewing and editing personal details (name, course, year) with current profile display and save functionality.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including fetching notes, uploading notes with ExternalBlob photos, and managing About Me data with proper cache invalidation.",
+  "frontend/src/index.css": "Global styles with warm academic OKLCH color palette featuring sage greens and earthy tones for both light and dark modes, plus typography settings.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom fonts, warm academic color tokens, border radius, and shadow utilities for cohesive design system.",
+  "frontend/index.html": "HTML entry point with updated title \"Devanshu Portfolio\" (removed apostrophe for domain name compliance).",
+  "frontend/src/config.ts": "Network configuration module that determines the correct host and environment settings for local development vs IC mainnet deployment.",
+  "frontend/src/hooks/useActor.ts": "Hook for initializing the backend actor with proper network configuration, using Internet Identity for authentication and conditionally fetching root key only in development.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Internet Identity authentication hook configured for both local development and production mainnet, with proper identity provider URLs and session management.",
+  "README.md": "Complete documentation for the portfolio application including local development setup, mainnet deployment instructions, feature list, and technology stack overview."
+}
